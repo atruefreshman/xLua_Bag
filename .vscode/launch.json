@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "emmylua_attach",
+            "request": "attach",
+            "name": "Lua附加到Unity",
+            "pid": 0,
+            "processName": ""
+        },
+        {
+            "name": "Lua调试",
+            "type": "vstuc",
+            "request": "attach"
+        }
+     ]
+}
